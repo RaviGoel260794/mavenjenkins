@@ -19,6 +19,7 @@ public class UITest {
 		WebDriver driver = null;
 		
 		if(browserName.contains("Chrome"))
+			
 		{
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
