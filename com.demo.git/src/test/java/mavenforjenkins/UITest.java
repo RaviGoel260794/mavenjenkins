@@ -25,6 +25,7 @@ public class UITest {
 			driver = new ChromeDriver();
 		}
 		
+		
 		else if(browserName.contains("Edge"))
 		{
 			WebDriverManager.edgedriver().setup();
