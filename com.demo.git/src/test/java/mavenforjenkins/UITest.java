@@ -34,6 +34,7 @@ public class UITest {
 		Assert.assertTrue(driver.getTitle().contains("Orange"),"Title does not match");
 		driver.quit();
 		
+		
 	}
 
 }
